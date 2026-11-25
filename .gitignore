@@ -1,0 +1,19 @@
+.DS_Store
+.env
+*.pem
+*.key
+.venv/
+__pycache__/
+.pytest_cache/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+# Large / sensitive evidence (keep out of git)
+*.pcap
+*.pcapng
+*.mem
+*.raw
+*.E01
+*.vmdk
